@@ -1,0 +1,25 @@
+﻿<Window x:Class="kolko.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kolko"
+        mc:Ignorable="d"
+        Title="Kolko i Krzyzyk" Height="291.214" Width="354.974">
+    <Grid>
+        <Button x:Name="bt1" Content="" HorizontalAlignment="Left" Margin="88,58,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="bt1_Click" FontSize="20"/>
+        <Button x:Name="bt9" Content="" HorizontalAlignment="Left" Margin="198,168,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="bt9_Click" FontSize="20"/>
+        <Button x:Name="bt8" Content="" HorizontalAlignment="Left" Margin="143,168,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="bt8_Click" FontSize="20"/>
+        <Button x:Name="bt6" Content="" HorizontalAlignment="Left" Margin="198,113,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="bt6_Click" FontSize="20"/>
+        <Button x:Name="bt5" Content="" HorizontalAlignment="Left" Margin="143,113,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="bt5_Click" FontSize="20"/>
+        <Button x:Name="bt7" Content="" HorizontalAlignment="Left" Margin="88,168,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="bt7_Click" FontSize="20"/>
+        <Button x:Name="bt4" Content="" HorizontalAlignment="Left" Margin="88,113,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="bt4_Click" FontSize="20"/>
+        <Button x:Name="bt3" Content="" HorizontalAlignment="Left" Margin="198,58,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="bt3_Click" FontSize="20"/>
+        <Button x:Name="bt2" Content="" HorizontalAlignment="Left" Margin="143,58,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="bt2_Click" FontSize="20"/>
+        <Button x:Name="btReset" Content="Reset" HorizontalAlignment="Left" Margin="261,58,0,0" VerticalAlignment="Top" Width="54" Click="btReset_Click"/>
+        <Label x:Name="lbX" Content="Gracz X: 0" HorizontalAlignment="Left" Margin="88,32,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbO" Content="Gracz O: 0" HorizontalAlignment="Left" Margin="182,32,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbKto" Content="Teraz gracz X" HorizontalAlignment="Left" Margin="251,82,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
